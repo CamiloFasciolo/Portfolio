@@ -97,8 +97,8 @@ span {
 }
 
 .main img {
-    width: 550px;
-
+    width: 50%;
+margin-left: 3rem;
 }
 
 .info-content {

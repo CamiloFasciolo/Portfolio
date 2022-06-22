@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -104,6 +109,7 @@ margin-left: 4rem;
 .info-content {
     padding-right: 30px;
 }
+
 
 .about {
     display: grid;
@@ -212,4 +218,23 @@ margin-left: 4rem;
     width: 100%;
     justify-content: center;
     margin-top: 1rem;
+}
+
+.contact-section{
+padding: 4rem;
+background-color: #fff;
+}
+
+.contact-headings h2{
+    font-size: 4em;
+    color: #bfaef5;
+}
+
+.container-contact{
+    margin: 0 auto;
+}
+
+.container-contact img{
+    width: 30%;
+    bottom: 0%;
 }

@@ -249,7 +249,7 @@ align-items: center;
 .contact-form{
     display: flex;
     flex-direction: column;
-    width:30vw;
+    width:20vw;
     margin-left: 8rem
 }
 

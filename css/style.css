@@ -16,6 +16,8 @@ body {
     overflow-x: hidden;
 }
 
+/* --------------------------- Inicio Section Home -------------------------- */
+/* ---------------------------------- body ---------------------------------- */
 .wrapper,
 .portfolio {
     width: 100vw;
@@ -23,14 +25,16 @@ body {
     background-color: #bfaef5;
     color: #fff;
 }
-
+/* ---------------------------------- body ---------------------------------- */
+/* --------------------------------- navbar --------------------------------- */
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 2em;
     font-weight: bold;
 }
-
+/* --------------------------------- navbar --------------------------------- */
+/* ---------------------------------- menu ---------------------------------- */
 .brand {
     font-size: 25px;
     margin-top: -7px;
@@ -76,7 +80,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
-
+/* ---------------------------------- menu ---------------------------------- */
+/* --------------------------------- titulo --------------------------------- */
 h1 {
     font-size: 3em;
 }
@@ -84,7 +89,8 @@ h1 {
 span {
     color: yellow;
 }
-
+/* --------------------------------- titulo --------------------------------- */
+/* ---------------------------- boton de descarga --------------------------- */
 .download-cv {
     padding: 10px 20px;
     background-color: yellow;
@@ -100,29 +106,35 @@ span {
     background-color: white;
     box-shadow: none;
 }
-
+/* ---------------------------- boton de descarga --------------------------- */
+/* ----------------------------------- img ---------------------------------- */
 .main img {
     width: 50%;
 margin-left: 4rem;
 }
-
+/* ----------------------------------- img ---------------------------------- */
+/* ------------------------------- info breve ------------------------------- */
 .info-content {
     padding-right: 30px;
 }
-
-
+/* ------------------------------- info breve ------------------------------- */
+/* ---------------------------- Fin Section Home ---------------------------- */
+/* -------------------------- Inicio Section About -------------------------- */
+/* --------------------------------- Titulo --------------------------------- */
 .about {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     width: 100vw;
     align-items: center;
 }
-
+/* --------------------------------- Titulo --------------------------------- */
+/* ----------------------------------- img ---------------------------------- */
 .about-img {
     width: 75%;
     grid-column: 1/5;
 }
-
+/* ----------------------------------- img ---------------------------------- */
+/* ------------------------------ info sobre mi ----------------------------- */
 .about-info {
     grid-column: 5/10;
     padding: 2rem;
@@ -136,7 +148,8 @@ margin-left: 4rem;
 .about p {
     margin-bottom: 1rem;
 }
-
+/* ------------------------------ info sobre mi ----------------------------- */
+/* -------------------------------- subrayado ------------------------------- */
 .divider {
     height: 4px;
     width: 60px;
@@ -144,7 +157,9 @@ margin-left: 4rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/* -------------------------------- subrayado ------------------------------- */
+/* ---------------------------- Fin Section About --------------------------- */
+/* ---------------------------- Inicio Portfolio ---------------------------- */
 .portfolio-headings {
     width: 100vw;
     padding: 5rem;
@@ -153,6 +168,7 @@ margin-left: 4rem;
 .portfolio-headings h2 {
     font-size: 4rem;
 }
+/* --------------------------------- heading -------------------------------- */
 
 .portfolio .container {
     width: 80vw;
@@ -163,6 +179,8 @@ margin-left: 4rem;
     justify-content: center;
 }
 
+/* ----------------------------- Body portfolio ----------------------------- */
+/* -------------------------------- proyectos ------------------------------- */
 .card {
     width: 300px;
     height: 400px;
@@ -170,18 +188,20 @@ margin-left: 4rem;
     color: yellow;
     margin: 5rem;
 }
-
+/* -------------------------------- proyectos ------------------------------- */
+/* ----------------------------------- img ---------------------------------- */
 .card-img {
     width: 100%;
     height: 150px;
     background-image: url(../multimedia/images/page-img.png);
     background-size: cover;
 }
-
+/* ----------------------------------- img ---------------------------------- */
+/* ------------------------------ titulo cards ------------------------------ */
 .card-tittle {
     padding: 20px;
 }
-
+/* ------------------------------ titulo cards ------------------------------ */
 .card-projects-links {
     display: flex;
     justify-content: space-evenly;
@@ -219,6 +239,8 @@ margin-left: 4rem;
     justify-content: center;
     margin-top: 1rem;
 }
+
+/* -------------------------- Fin Section Portfolio ------------------------- */
 
 .contact-section{
 padding: 4rem;

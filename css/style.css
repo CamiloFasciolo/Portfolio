@@ -256,8 +256,45 @@ align-items: center;
 .form{
     display: flex;
     flex-direction: column;
+
 }
 
 .touch{
     color: #9d8bda;
+}
+
+
+.form input {
+    padding: 20px 30px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #bfaef5;
+    color: #bfaef5;
+}
+
+
+
+.form textarea{
+    height: 150px;
+    background: none;
+    color: #bfaef5;
+    padding: 1.5em;
+    border: 2px solid #bfaef5;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #bfaef5;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px #bfaef5;
+}
+
+.btn-submit:hover{
+    background-color: yellow;
+    box-shadow: none;
 }

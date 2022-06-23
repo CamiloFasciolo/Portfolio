@@ -202,6 +202,7 @@ margin-left: 4rem;
     padding: 20px;
 }
 /* ------------------------------ titulo cards ------------------------------ */
+/* ------------------------------- links cards ------------------------------ */
 .card-projects-links {
     display: flex;
     justify-content: space-evenly;
@@ -217,7 +218,8 @@ margin-left: 4rem;
     font-size: 1.5rem;
     color: yellow;
 }
-
+/* ------------------------------- links cards ------------------------------ */
+/* ---------------------------- proyecto detalles --------------------------- */
 .project-details {
     color: yellow;
 }
@@ -239,20 +241,22 @@ margin-left: 4rem;
     justify-content: center;
     margin-top: 1rem;
 }
-
+/* ---------------------------- proyecto detalles --------------------------- */
 /* -------------------------- Fin Section Portfolio ------------------------- */
-
+/* ------------------------- Inicio Section Contact ------------------------- */
+/* ------------------------------ Body Contact ------------------------------ */
 .contact-section{
 padding: 4rem;
 background-color: #fff; 
 margin: 0%;
 }
-
+/* --------------------------------- Heading -------------------------------- */
 .contact-headings h2{
     font-size: 4em;
     color: #bfaef5;
 }
-
+/* --------------------------------- Heading -------------------------------- */
+/* -------------------------------- Container ------------------------------- */
 .container-contact{
     margin: 0 auto;
 display: flex;
@@ -260,12 +264,13 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
-
+/* ---------------------------- Caja de contacto ---------------------------- */
 .container-contact img{
     width: 30%;
     bottom: 0%;
 }
 
+/* ---------------------------- Caja de contacto ---------------------------- */
 
 
 .contact-form{
@@ -274,36 +279,44 @@ align-items: center;
     width:20vw;
     margin-left: 8rem
 }
+/* ---------------------------- Caja de contacto ---------------------------- */
 
 .form{
     display: flex;
     flex-direction: column;
 
 }
-
+/* ---------------------------- Caja de contacto ---------------------------- */
+/* --------------------------------- titulo --------------------------------- */
 .touch{
     color: #9d8bda;
 }
+/* --------------------------------- titulo --------------------------------- */
+/* ---------------------------- Caja de contacto ---------------------------- */
 
 
 .form input {
     padding: 20px 30px;
     margin-bottom: 1em;
-    background: none;
+    background-color: #bfaef5;
     border: none;
     border-bottom: 2px solid #bfaef5;
     color: #bfaef5;
+    border-radius: 20px;
 }
 
+/* ---------------------------- Caja de contacto ---------------------------- */
 
 
 .form textarea{
     height: 150px;
-    background: none;
     color: #bfaef5;
     padding: 1.5em;
     border: 2px solid #bfaef5;
+    background-color: #bfaef5;
+    border-radius: 20px;
 }
+/* ---------------------------- Caja de contacto ---------------------------- */
 
 .btn-submit{
     padding: 10px 20px;
@@ -315,12 +328,18 @@ align-items: center;
     cursor: pointer;
     box-shadow: 1px 3px 11px -5px #bfaef5;
 }
+/* ---------------------------- Caja de contacto ---------------------------- */
+
 
 .btn-submit:hover{
     background-color: yellow;
     box-shadow: none;
 }
-
+/* -------------------------------- Container ------------------------------- */
+/* ------------------------------ Body Contact ------------------------------ */
+/* --------------------------- Fin Section Contact -------------------------- */
+/* ------------------------------ Inicio Footer ----------------------------- */
+/* ---------------------------------- body ---------------------------------- */
 .footer{
     display: flex;
     flex-direction: column;
@@ -330,7 +349,8 @@ align-items: center;
     height: 200px;
     background-color: #bfaef5;
 }
-
+/* ---------------------------------- body ---------------------------------- */
+/* -------------------------------- contenido ------------------------------- */
 .footer-content h2{
     font-size: 2.5em;
     color: #9d8bda;
@@ -343,15 +363,19 @@ align-items: center;
     justify-content: center;
     color: #9d8bda;
 }
-
+/* -------------------------------- contenido ------------------------------- */
+/* ---------------------------------- redes --------------------------------- */
 .social-network{
 display: flex;
 justify-content: space-evenly;
 width: 30%;
 margin-top: 1em;
 }
-
+/* --------------------------------- iconos --------------------------------- */
 .social-network i{
     font-size: 2em;
     color: #9d8bda;
 }
+/* --------------------------------- iconos --------------------------------- */
+/* ---------------------------------- redes --------------------------------- */
+/* --------------------------- Fin Section Footer --------------------------- */

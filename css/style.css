@@ -298,3 +298,38 @@ align-items: center;
     background-color: yellow;
     box-shadow: none;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #bfaef5;
+}
+
+.footer-content h2{
+    font-size: 2.5em;
+    color: #9d8bda;
+}
+
+
+.footer-content h5{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    color: #9d8bda;
+}
+
+.social-network{
+display: flex;
+justify-content: space-evenly;
+width: 30%;
+margin-top: 1em;
+}
+
+.social-network i{
+    font-size: 2em;
+    color: #9d8bda;
+}

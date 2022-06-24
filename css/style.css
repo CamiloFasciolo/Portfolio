@@ -369,8 +369,8 @@ align-items: center;
     color: #6c44ee;
     display: flex;
     justify-content: center;
-}
 
+}
 
 
 .footer-content h5{
@@ -391,6 +391,7 @@ margin-top: 1em;
 .social-network i{
     font-size: 2em;
     color: #6c44ee;
+    cursor: pointer;
 }
 /* --------------------------------- iconos --------------------------------- */
 /* ---------------------------------- redes --------------------------------- */

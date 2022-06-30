@@ -198,7 +198,7 @@ margin-left: 4rem;
 }
 
 .card:hover{
-    box-shadow: 15px 10px 20px  rgba(0, 0, 0, 0.4);
+    box-shadow: -5px -5px 5px -5px rgba(0, 0, 0, 0.5), 5px 5px 5px -5px rgba(0, 0, 0, 0.5), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
     transform: translateY(-10%);
 }
 

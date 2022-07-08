@@ -331,7 +331,7 @@ align-items: center;
     background-color: #bfaef5;
     border: none;
     border-bottom: 2px solid #bfaef5;
-    color: #bfaef5;
+    color: #fff;
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -342,7 +342,7 @@ align-items: center;
 
 .form textarea{
     height: 150px;
-    color: #bfaef5;
+    color: #fff;
     padding: 1.5em;
     border: 2px solid #bfaef5;
     background-color: #bfaef5;

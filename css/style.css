@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -25,6 +25,7 @@ body {
     background-color: #bfaef5;
     color: #fff;
 }
+
 /* ---------------------------------- body ---------------------------------- */
 /* --------------------------------- navbar --------------------------------- */
 .navbar {
@@ -33,6 +34,7 @@ body {
     padding: 2em;
     font-weight: bold;
 }
+
 /* --------------------------------- navbar --------------------------------- */
 /* ---------------------------------- menu ---------------------------------- */
 .brand {
@@ -80,6 +82,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 }
+
 /* ---------------------------------- menu ---------------------------------- */
 /* --------------------------------- titulo --------------------------------- */
 h1 {
@@ -110,17 +113,20 @@ span {
     background-color: white;
     box-shadow: none;
 }
+
 /* ---------------------------- boton de descarga --------------------------- */
 /* ----------------------------------- img ---------------------------------- */
 .main img {
     width: 50%;
-margin-left: 4rem;
+    margin-left: 4rem;
 }
+
 /* ----------------------------------- img ---------------------------------- */
 /* ------------------------------- info breve ------------------------------- */
 .info-content {
     padding-right: 30px;
 }
+
 /* ------------------------------- info breve ------------------------------- */
 /* ---------------------------- Fin Section Home ---------------------------- */
 /* -------------------------- Inicio Section About -------------------------- */
@@ -131,12 +137,14 @@ margin-left: 4rem;
     width: 100vw;
     align-items: center;
 }
+
 /* --------------------------------- Titulo --------------------------------- */
 /* ----------------------------------- img ---------------------------------- */
 .about-img {
     width: 75%;
     grid-column: 1/5;
 }
+
 /* ----------------------------------- img ---------------------------------- */
 /* ------------------------------ info sobre mi ----------------------------- */
 .about-info {
@@ -153,6 +161,7 @@ margin-left: 4rem;
     margin-bottom: 1rem;
     color: black;
 }
+
 /* ------------------------------ info sobre mi ----------------------------- */
 /* -------------------------------- subrayado ------------------------------- */
 .divider {
@@ -162,6 +171,7 @@ margin-left: 4rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /* -------------------------------- subrayado ------------------------------- */
 /* ---------------------------- Fin Section About --------------------------- */
 /* ---------------------------- Inicio Portfolio ---------------------------- */
@@ -173,6 +183,7 @@ margin-left: 4rem;
 .portfolio-headings h2 {
     font-size: 4rem;
 }
+
 /* --------------------------------- heading -------------------------------- */
 
 .portfolio .container {
@@ -197,7 +208,7 @@ margin-left: 4rem;
     transition: all 400ms ease;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: -5px -5px 5px -5px rgba(0, 0, 0, 0.5), 5px 5px 5px -5px rgba(0, 0, 0, 0.5), -7px -7px 10px -5px transparent, 7px 7px 10px -5px transparent, 0 0 5px 0px rgba(255, 255, 255, 0), 0 55px 35px -20px rgba(0, 0, 0, 0.5);
     transform: translateY(-10%);
 }
@@ -212,16 +223,17 @@ margin-left: 4rem;
 }
 
 .card-mundogatuno {
-    width:100%;
+    width: 100%;
     height: 150px;
     background-image: url(../multimedia/images/gato-caja.png);
 }
 
-.card-lowkey{
-    width:100%;
+.card-lowkey {
+    width: 100%;
     height: 150px;
     background-image: url(../multimedia/images/lowkey-card.jpg);
 }
+
 /* ----------------------------------- img ---------------------------------- */
 /* ------------------------------ titulo cards ------------------------------ */
 .card-tittle {
@@ -229,6 +241,7 @@ margin-left: 4rem;
     display: flex;
     justify-content: center;
 }
+
 /* ------------------------------ titulo cards ------------------------------ */
 /* ------------------------------- links cards ------------------------------ */
 .card-projects-links {
@@ -246,6 +259,7 @@ margin-left: 4rem;
     font-size: 1.5rem;
     color: yellow;
 }
+
 /* ------------------------------- links cards ------------------------------ */
 /* ---------------------------- proyecto detalles --------------------------- */
 .project-details {
@@ -271,31 +285,35 @@ margin-left: 4rem;
     justify-content: center;
     margin-top: 1rem;
 }
+
 /* ---------------------------- proyecto detalles --------------------------- */
 /* -------------------------- Fin Section Portfolio ------------------------- */
 /* ------------------------- Inicio Section Contact ------------------------- */
 /* ------------------------------ Body Contact ------------------------------ */
-.contact-section{
-padding: 4rem;
-background-color: #fff; 
-margin: 0%;
+.contact-section {
+    padding: 4rem;
+    background-color: #fff;
+    margin: 0%;
 }
+
 /* --------------------------------- Heading -------------------------------- */
-.contact-headings h2{
+.contact-headings h2 {
     font-size: 4em;
     color: #bfaef5;
 }
+
 /* --------------------------------- Heading -------------------------------- */
 /* -------------------------------- Container ------------------------------- */
-.container-contact{
+.container-contact {
     margin: 0 auto;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 /* ---------------------------- Caja de contacto ---------------------------- */
-.container-contact img{
+.container-contact img {
     width: 30%;
     bottom: 0%;
 }
@@ -303,24 +321,27 @@ align-items: center;
 /* ---------------------------- Caja de contacto ---------------------------- */
 
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
-    width:20vw;
+    width: 20vw;
     margin-left: 8rem
 }
+
 /* ---------------------------- Caja de contacto ---------------------------- */
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
 
 }
+
 /* ---------------------------- Caja de contacto ---------------------------- */
 /* --------------------------------- titulo --------------------------------- */
-.touch{
+.touch {
     color: #bfaef5;
 }
+
 /* --------------------------------- titulo --------------------------------- */
 /* ---------------------------- Caja de contacto ---------------------------- */
 
@@ -340,7 +361,7 @@ align-items: center;
 /* ---------------------------- Caja de contacto ---------------------------- */
 
 
-.form textarea{
+.form textarea {
     height: 150px;
     color: #fff;
     padding: 1.5em;
@@ -350,9 +371,10 @@ align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
 /* ---------------------------- Caja de contacto ---------------------------- */
 
-.btn-submit{
+.btn-submit {
     padding: 10px 20px;
     margin: 1em;
     border: none;
@@ -364,19 +386,21 @@ align-items: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
 /* ---------------------------- Caja de contacto ---------------------------- */
 
 
-.btn-submit:hover{
+.btn-submit:hover {
     background-color: yellow;
     box-shadow: none;
 }
+
 /* -------------------------------- Container ------------------------------- */
 /* ------------------------------ Body Contact ------------------------------ */
 /* --------------------------- Fin Section Contact -------------------------- */
 /* ------------------------------ Inicio Footer ----------------------------- */
 /* ---------------------------------- body ---------------------------------- */
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -385,9 +409,10 @@ align-items: center;
     height: 200px;
     background-color: #bfaef5;
 }
+
 /* ---------------------------------- body ---------------------------------- */
 /* -------------------------------- contenido ------------------------------- */
-.footer-content h2{
+.footer-content h2 {
     font-size: 2.5em;
     color: #6c44ee;
     display: flex;
@@ -396,26 +421,75 @@ align-items: center;
 }
 
 
-.footer-content h5{
+.footer-content h5 {
     font-size: 1.5em;
     display: flex;
     justify-content: center;
     color: #6c44ee;
 }
+
 /* -------------------------------- contenido ------------------------------- */
 /* ---------------------------------- redes --------------------------------- */
-.social-network{
-display: flex;
-justify-content: space-evenly;
-width: 30%;
-margin-top: 1em;
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-top: 1em;
 }
+
 /* --------------------------------- iconos --------------------------------- */
-.social-network i{
+.social-network i {
     font-size: 2em;
     color: #6c44ee;
     cursor: pointer;
 }
+
 /* --------------------------------- iconos --------------------------------- */
 /* ---------------------------------- redes --------------------------------- */
 /* --------------------------- Fin Section Footer --------------------------- */
+/* -------------------------- Inicio Medias Queries ------------------------- */
+@media (min-width: 319px) and (max-width: 425px) {
+
+
+.imghome, .imgabout{
+    display: none;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+
+.about-tittle{
+    font-size: 3em;
+    padding-right: 0.5em;
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+}

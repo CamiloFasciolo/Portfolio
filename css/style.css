@@ -468,20 +468,12 @@ span {
     padding-right: 0.5em;
 }
 
-.portfolio{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100vw;
-}
 
 .container{
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 100vw;
 }
 
 

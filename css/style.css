@@ -96,7 +96,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-.navbar {
+.menu {
     display: none;
 }
 }
@@ -195,11 +195,15 @@ span {
 /* ---------------------------- Fin Section About --------------------------- */
 /* ---------------------------- Inicio Portfolio ---------------------------- */
 .portfolio-headings {
-padding: 5rem;
+padding: 3rem;
 }
 
 .portfolio-headings h2 {
     font-size: 4rem;
+}
+
+.portfolio .portfolio-headings{
+margin-right: 10rem;
 }
 
 /* --------------------------------- heading -------------------------------- */
@@ -519,4 +523,13 @@ padding: 5rem;
         min-width: 100%;
         min-height: 100%;
     }
-}
+
+    .portfolio{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-width: 100%;
+            min-height: 100%;
+            align-items: flex-start
+        }
+    }

@@ -240,19 +240,19 @@ margin-right: 10rem;
 /* ----------------------------------- img ---------------------------------- */
 .card-img {
     height: 200px;
-    min-width: 50%;
+    max-width: 100%;
     background-image: url(../multimedia/images/page-img.png);
     background-size: cover;
 }
 
 .card-mundogatuno {
-    min-width: 50%;
+    max-width: 100%;
     height: 200px;
     background-image: url(../multimedia/images/gato-caja.png);
 }
 
 .card-lowkey {
-    width: 100%;
+    max-width: 100%;
     height: 200px;
     background-image: url(../multimedia/images/lowkey-card.jpg);
 }
